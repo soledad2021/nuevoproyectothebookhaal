@@ -1,0 +1,51 @@
+
+.contenedor__conta {
+    color: black;
+    
+}
+.contenedor__form-header {
+    font-weight: normal;
+}
+
+.contenedor__form-label {
+    display: block;
+    color:  black;
+    font-size: 16px;
+    position: relative;
+    font-weight: bold;
+}
+.contenedor__textarea {
+    background: rgba(0,0,0,0.1);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(85, 85, 85);
+    width: 100%;
+    padding: 10%;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 16px;
+}
+.contenedor__form-input {
+    background: rgba(0,0,0,0.1);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(85, 85, 85);
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 12px;
+}
+.contenedor__btn-formulario {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    margin-bottom: 50px;
+
+}

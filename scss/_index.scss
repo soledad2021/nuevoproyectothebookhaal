@@ -1,0 +1,98 @@
+/*venta de productos (index)*/
+.venta__novedades {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    .venta__foto-principal {
+        width: 218px;
+        height: 320px;
+        margin: 10px;
+        border-radius: 6px;
+        overflow: hidden;
+        cursor: default;
+        transition: all 400ms ease;
+
+        img {
+            width: 180px;
+            height: 260px;
+            margin: 10px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+
+            .venta__foto-principal--over:hover {
+                width: 230px;
+                height: 335px;
+                box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.4);
+                transform: translateZ(-3%);
+            }
+        }
+    }
+}
+
+.venta__foto-principal--over:hover {
+    width: 230px;
+    height: 335px;
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.4);
+    transform: translateZ(-3%);
+}
+
+
+.venta__informacion {
+    width: 260px;
+}
+
+.venta__descripcionDelProducto {
+    width: 250px;
+    height: auto;
+    font-size: 16px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.venta__precioDelProducto {
+    width: 260px;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 30px;
+    margin-bottom: 2px;
+}
+
+/*
+section article div img {
+    width: 250px;
+    height: 260px;
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*section article div img:hover {
+    width: 210px;
+    height: 310px;
+    transition: 0.6s;
+}*/
+.btn-dark:hover {
+    background-color: white;
+    color: black;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.card {
+    height: 480px;
+}
+.bg-white {
+    width: 260px;
+    height: 500px;
+}

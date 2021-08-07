@@ -1,0 +1,53 @@
+$banner: (
+  camion: #55acee,
+  paquete: #3a5795,
+  moto: #c25E30
+);
+
+
+@each $r, $v in $banner{
+  .sumar-#{$r} {
+    background-color: $v;
+  }
+  
+}
+
+.banner__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 150px;
+  margin-top: 50px;
+  img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 190px;
+  }
+}
+
+.banner__titulo--centrado{
+    padding-left: 15px;
+  font-family: 'Spartan', sans-serif;
+  font-size: 14px;
+  width: 270px;
+  padding-top: 3px;
+
+}
+
+.banner__titulo{
+    font-family: 'Spartan', sans-serif;
+    font-size: 14px;
+    margin-left: 150px;
+    width: 260px;
+    padding-top: 3px;
+    
+  }
+
+.banner__titulo--moto{
+    padding-left: 10px;
+
+}

@@ -1,0 +1,143 @@
+@media only screen and (min-width: 489px) and (max-width: 1024px) {
+    .contenedor__btn-formulario {
+       display: flex;
+       flex-direction: row;
+       width: auto;
+       justify-content: center;
+       align-content: center;
+       margin-left: 5px;
+       left: 200px;
+
+   }
+   .contenedor {
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       height: auto;
+   }
+   .mapa {
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       height: auto;
+       
+   }
+   iframe {
+       width: 500px;
+       height: 400px;
+       
+   }
+
+.header {
+    grid-area: header;
+    background-color: red;
+}
+
+.navbar {
+    grid-area: navbar;
+    background-color: yellow;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    width: 100%;
+    height: auto;
+    background-color: palevioletred;
+    .introduccion {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .nombreProducto {
+        display: flex;
+        flex-direction: column;
+        width: -40%;
+        }
+    .btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        margin-left: 80px;
+    }
+    .precio {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+.main {
+    grid-area: main;
+    background-color: teal;
+    .imgProducto{
+        margin-left: 20px;
+        }
+}
+
+.footer {
+    grid-area: footer;
+    background-color: orange;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content:: space-around;
+        width: 100%;
+
+    
+    h4 {
+        font-size: 70%;
+    }
+    .footer__masInformacion {
+        font-size: 50%;
+    }
+    
+    .footer__contactanos {
+        font-size: 50%;
+    }
+    .footer__wazap-email {
+        width: 25px;
+        height: 25px;
+    }
+    .footer__seguinos {
+        width: 40px;
+        height: 40px;
+}
+.footer__medioDePagos {
+    width: 175px;
+    height: 115px;
+}
+
+}
+
+
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+        "header"
+        "navbar"
+        "main"
+        "sidebar"
+        "footer";
+}
+
+
+.grid-container {
+    background-color: black;
+     grid-template-rows: auto auto auto auto;
+grid-template-columns: 150px auto;
+grid-template-areas: 
+"header header "
+"navbar navbar"
+"main  sidebar"
+"footer footer";
+/*
+    grid-template:
+        "header"auto "navbar"auto "main"auto "sidebar"auto "footer "auto / auto;
+}
+
+*/
+
+}
+}

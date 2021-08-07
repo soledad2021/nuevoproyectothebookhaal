@@ -1,0 +1,287 @@
+@media only screen and (min-width: 1821px) {
+    .contenedor__btn-formulario {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        justify-content: center;
+        align-content: center;
+        margin-left: 5px;
+        left: 200px;
+
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .mapa {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+
+    }
+
+    iframe {
+        width: 500px;
+        height: 400px;
+
+    }
+
+    .header {
+        grid-area: header;
+        background-color: lawngreen;
+
+        .header__h1 {
+            font-size: 200%;
+        }
+
+        .header__logo {
+            width: 800px;
+            height: 400px;
+        }
+    }
+
+    .navbar {
+        grid-area: navbar;
+        background-color: olive;
+        font-size: 200%;
+
+        .navbar-brand {
+            font-size: 100%;
+        }
+
+        .btn-outline-light {
+            width: 250px;
+            font-size: xx-large;
+        }
+    }
+
+    .sidebar {
+        grid-area: sidebar;
+        width: 100%;
+        height: auto;
+        background-color: tomato;
+        font-size: 30%;
+
+        .introduccion {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            font-size: 1000%;
+        }
+
+        .nombreProducto {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            font-size: 2000%;
+        }
+
+        .reseña {
+            display: flex;
+            flex-direction: row;
+            font-size: 600%;
+            width: 200%;
+        }
+
+        .btn {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-left: 80px;
+        }
+
+        .precio {
+            font-size: 1500%;
+        }
+
+        .btn {
+            width: 500px;
+            font-size: xx-large;
+
+        }
+
+    }
+
+    .main {
+        grid-area: main;
+        background-color: royalblue;
+        
+
+        .imgProducto {
+            display: flex;
+            flex-direction: column;
+            justify-content: right;
+            margin-left: 320px;
+            width: 550px;
+            height: 750px;
+        }
+        .venta__foto-principal {
+            width: 452px;
+            height: 628px;
+        }
+        .venta__descripcionDelProducto {
+            width: 452px;
+            height: auto;
+            font-size: 230%;
+            background-color:  lightblue;
+        }
+        .venta__precioDelProducto {
+            width: 452px;
+            font-size: 250%;
+        }
+        #button {
+            margin-top: -400px;
+            margin-left: 35px;
+        }
+
+        .titulo {
+            font-size: 500%;
+        }
+
+        .entrevistados {
+            font-size: 300%;
+        }
+
+        .youtube {
+            width: 750PX;
+            height: 550PX;
+        }
+
+        .bg-white mb-3 text-center {
+            width: 26rem;
+            background-color: magenta;
+        }
+
+        .ventaDeMangas {
+            width: auto;
+            background-color: yellow;
+        }
+
+        .bg-white {
+            width: 480px;
+            height: 1100px;
+            background-color: violet;
+            
+        }
+
+        .card-img-top {
+            width: 452px;
+            height: 628px;
+            background-color: navy;
+        }
+
+        .card-text {
+            width: 452px;
+            height: auto;
+            font-size: 250%;
+            background-color: purple;
+        }
+
+
+        .precioDeVenta {
+            width: 452px;
+            font-size: 250%;
+        }
+
+        .precioDeVenta-padding {
+            background-color: maroon;
+            margin-top: -40px;
+        }
+
+        .btn {
+            width: 350px;
+            height: 75px;
+            font-size: 200%;
+            margin-top: 500px;
+        }
+
+        .card-text-padding2 {
+            padding-top: 60px;
+        }
+
+        .card-text-padding {
+            padding-top: 30px;
+        }
+    }
+}
+
+
+
+
+    .footer {
+        grid-area: footer;
+        background-color: aquamarine;
+        font-size: 180%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        height: auto;
+    }
+    h4 {
+        font-size: 150%;
+    }
+
+    .footer__masventa__Informacion {
+        font-size: 130%;
+    }
+
+    .footer__medioDePagos {
+        width: 350px;
+        height: 250px;
+    }
+
+    .footer__contactanos {
+        font-size: 110%;
+    }
+
+    .footer__wazap-email {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer__seguinos {
+        width: 70px;
+        height: 70px;
+} 
+
+
+
+
+.grid-container {
+    display: grid;
+    gap: 50px;
+    grid-template-areas:
+        "header"
+        "navbar"
+        "main"
+        "sidebar"
+        "footer";
+}
+
+
+.grid-container {
+    background-color: black;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 900px auto;
+    grid-template-areas:
+        "header header "
+        "navbar navbar"
+        "main  sidebar"
+        "footer footer";
+    /*
+    grid-template:
+        "header"auto "navbar"auto "main"auto "sidebar"auto "footer "auto / auto;
+}
+
+*/
+
+
+
+
+}

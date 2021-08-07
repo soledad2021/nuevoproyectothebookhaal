@@ -1,0 +1,237 @@
+@media only screen and (min-width: 320px) and (max-width: 488px) {
+    body {
+        background-color: gray;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 100%;
+    }
+
+    html {
+        height: 100%;
+    }
+
+    .header__h1 {
+        font-size: small;
+    }
+
+    .header__logo {
+        width: 200px;
+        height: 100px;
+    }
+
+    .titulo {
+        text-align: center;
+    }
+
+    .venta__foto-principal {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+
+    a {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .venta__informacion {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: auto;
+    }
+
+    .venta__descripcionDelProducto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: auto;
+    }
+
+    .venta__precioDelProducto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: auto;
+    }
+
+    .editoriales {
+        width: auto;
+        height: auto;
+        align-content: center;
+    }
+
+    .card-img-top {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .ventaDeMangas {
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+
+    .iconos {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .footer__wazap-principal {
+        width: 45px;
+        height: 45px;
+        border-radius: 50px;
+        position: fixed;
+        bottom: 25px;
+        right: 20px;
+        z-index: 1000;
+    }
+
+    .entrevistados {
+        font-size: 8px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .youtube {
+        width: 100%;
+        height: 100%;
+        padding-top: 10px;
+        padding-bottom: 60px;
+    }
+
+    .menuContacto {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+    }
+
+    .contenedor__btn-formulario {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        justify-content: center;
+        align-content: center;
+        margin-left: 5px;
+        left: 200px;
+
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .mapa {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+
+    .header {
+        grid-area: header;
+        background-color: aqua;
+    }
+
+    .navbar {
+        grid-area: navbar;
+        background-color: blue;
+    }
+
+    .sidebar {
+        grid-area: sidebar;
+        width: 100%;
+        height: auto;
+        background-color: dimgrey;
+        .nombreProducto{
+            margin-left: 20px;
+        }
+        .btn {
+            display: flex;
+            flex-direction: row;
+            justify-content: center; 
+            margin-left: 80px;
+        }
+    }
+
+    .main {
+        grid-area: main;
+        justify-self: center;
+        align-items: center;
+        background-color: chartreuse;
+        .imgProducto {
+            width: 150px;
+            height: 250px;
+        }
+    }
+
+    .footer {
+        grid-area: footer;
+        text-align: center;
+        justify-content: center;
+        background-color: crimson;
+        h4 {
+            font-size: 90%;
+        }
+        .footer__masInformacion {
+            font-size: 70%;
+        }
+        
+        .footer__contactanos {
+            font-size: 70%;
+        }
+        .footer__wazap-email {
+            width: 25px;
+            height: 25px;
+        }
+        .footer__seguinos {
+            width: 40px;
+            height: 40px;
+    }
+    
+    }
+
+    .grid-container {
+        display: grid;
+        gap: 10px;
+        grid-template-areas:
+            "header"
+            "navbar"
+            "main"
+            "sidebar"
+            "footer";
+    }
+    .grid-container {
+    background-color: fuchsia;
+    grid-template-rows: auto auto 350px 1000px auto;
+    grid-template-columns: 50px auto;
+    grid-template-areas: 
+    "header"
+    "navbar"
+    "main"
+    "footer";
+
+    }
+}
