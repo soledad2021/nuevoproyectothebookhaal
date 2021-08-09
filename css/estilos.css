@@ -670,12 +670,15 @@ p {
   .footer .footer__masInformacion {
     font-size: 70%;
   }
+  .footer .footer__masInformacion a {
+    font-size: 120%;
+  }
   .footer .footer__contactanos {
-    font-size: 70%;
+    font-size: 80%;
   }
   .footer .footer__wazap-email {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
   }
   .footer .footer__seguinos {
     width: 40px;
