@@ -607,20 +607,18 @@ p {
   .header {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
     grid-area: header;
     background-color: aqua;
   }
   .navbar {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
     grid-area: navbar;
     background-color: blue;
   }
   .sidebar {
-    -ms-grid-row: 3;
-    -ms-grid-column: 2;
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
     grid-area: sidebar;
     width: 100%;
     height: auto;
@@ -659,7 +657,6 @@ p {
   .footer {
     -ms-grid-row: 4;
     -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
     grid-area: footer;
     text-align: center;
     -webkit-box-pack: center;
@@ -749,44 +746,21 @@ p {
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-area: header;
-    background-color: red;
   }
   .navbar {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-area: navbar;
-    background-color: yellow;
   }
   .sidebar {
     -ms-grid-row: 3;
     -ms-grid-column: 2;
     grid-area: sidebar;
-    width: 100%;
+    width: 45%;
     height: auto;
-    background-color: palevioletred;
   }
-  .sidebar .introduccion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100%;
-  }
-  .sidebar .nombreProducto {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: -40%;
-  }
-  .sidebar .btn {
+  .sidebar .btn5 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -797,33 +771,36 @@ p {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-left: 80px;
   }
   .sidebar .precio {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100%;
+    margin-left: 35px;
+  }
+  .sidebar_demon {
+    padding-left: 20px;
+    height: auto;
+    margin-left: 95px;
   }
   .main {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
     grid-area: main;
-    background-color: teal;
+  }
+  .main .btn4 {
+    margin-left: -50px;
   }
   .main .imgProducto {
     margin-left: 20px;
+    margin-bottom: 120px;
+  }
+  .main_demon {
+    width: 25%;
+    float: left;
   }
   .footer {
     -ms-grid-row: 4;
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-area: footer;
-    background-color: orange;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -940,7 +917,7 @@ p {
     -ms-grid-row: 3;
     -ms-grid-column: 2;
     grid-area: sidebar;
-    width: 100%;
+    width: 55%;
     height: auto;
     background-color: tomato;
   }
@@ -954,17 +931,7 @@ p {
             flex-direction: column;
     width: 100%;
   }
-  .sidebar .nombreProducto {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: -40%;
-  }
-  .sidebar .btn {
+  .sidebar .btn5 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -975,20 +942,9 @@ p {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-left: 700px;
   }
   .sidebar .precio {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100%;
-  }
-  .sidebar .reseña {
-    font-size: 80%;
+    margin-left: 35px;
   }
   .main {
     -ms-grid-row: 3;
@@ -996,26 +952,16 @@ p {
     grid-area: main;
     background-color: royalblue;
   }
-  .main .imgProducto {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: right;
-        -ms-flex-pack: right;
-            justify-content: right;
-    margin-left: 200px;
-    width: 270px;
-    height: 450px;
-  }
-  .main .btn {
+  .main .btn4 {
     margin-left: -50px;
   }
-  .main .btn2 {
-    margin-left: -10px;
+  .main .imgProducto {
+    margin-left: 20px;
+    margin-bottom: 100px;
+  }
+  .main_demon {
+    width: 25%;
+    float: left;
   }
   .footer {
     -ms-grid-row: 4;
@@ -1154,7 +1100,7 @@ p {
     -ms-grid-row: 3;
     -ms-grid-column: 2;
     grid-area: sidebar;
-    width: 100%;
+    width: 75%;
     height: auto;
     background-color: tomato;
     font-size: 30%;
@@ -1168,9 +1114,22 @@ p {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
-    font-size: 1000%;
   }
-  .sidebar .nombreProducto {
+  .sidebar .btn5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 550px;
+  }
+  .sidebar .precio {
+    margin-left: 35px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1179,201 +1138,186 @@ p {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
-    font-size: 2000%;
-  }
-  .sidebar .reseña {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    font-size: 600%;
-    width: 200%;
-  }
-  .sidebar .btn {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-left: 80px;
-  }
-  .sidebar .precio {
-    font-size: 1500%;
-  }
-  .sidebar .btn {
-    width: 500px;
-    font-size: xx-large;
   }
   .main {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
     grid-area: main;
     background-color: royalblue;
+    width: 35%;
+  }
+  .main .btn4 {
+    margin-left: -50px;
   }
   .main .imgProducto {
+    margin-left: 20px;
+    margin-bottom: 100px;
+    padding-left: 100px;
+    width: 415px;
+    height: 555px;
+  }
+  .main_demon {
+    width: 25%;
+    float: left;
+  }
+  /*.imgProducto {
+            display: flex;
+            flex-direction: column;
+            justify-content: right;
+            margin-left: 320px;
+            width: 550px;
+            height: 750px;
+        }
+        .venta__foto-principal {
+            width: 452px;
+            height: 628px;
+        }
+        .venta__descripcionDelProducto {
+            width: 452px;
+            height: auto;
+            font-size: 230%;
+            background-color:  lightblue;
+        }
+        .venta__precioDelProducto {
+            width: 452px;
+            font-size: 250%;
+        }
+        #button {
+            margin-top: -400px;
+            margin-left: 35px;
+        }
+
+        .titulo {
+            font-size: 500%;
+        }
+
+        .entrevistados {
+            font-size: 300%;
+        }
+
+        .youtube {
+            width: 750PX;
+            height: 550PX;
+        }
+
+        .bg-white mb-3 text-center {
+            width: 26rem;
+            background-color: magenta;
+        }
+
+        .ventaDeMangas {
+            width: auto;
+            background-color: yellow;
+        }
+
+        .bg-white {
+            width: 480px;
+            height: 1100px;
+            background-color: violet;
+            
+        }
+
+        .card-img-top {
+            width: 452px;
+            height: 628px;
+            background-color: navy;
+        }
+
+        .card-text {
+            width: 452px;
+            height: auto;
+            font-size: 250%;
+            background-color: purple;
+        }
+
+
+        .precioDeVenta {
+            width: 452px;
+            font-size: 250%;
+        }
+
+        .precioDeVenta-padding {
+            background-color: maroon;
+            margin-top: -40px;
+        }
+
+        .btn {
+            width: 350px;
+            height: 75px;
+            font-size: 200%;
+            margin-top: 500px;
+        }
+
+        .card-text-padding2 {
+            padding-top: 60px;
+        }
+
+        .card-text-padding {
+            padding-top: 30px;
+        }
+    }
+}
+
+*/
+  .footer {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: footer;
+    font-size: 180%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: right;
-        -ms-flex-pack: right;
-            justify-content: right;
-    margin-left: 320px;
-    width: 550px;
-    height: 750px;
-  }
-  .main .venta__foto-principal {
-    width: 452px;
-    height: 628px;
-  }
-  .main .venta__descripcionDelProducto {
-    width: 452px;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100%;
     height: auto;
-    font-size: 230%;
-    background-color: lightblue;
   }
-  .main .venta__precioDelProducto {
-    width: 452px;
-    font-size: 250%;
+  h4 {
+    font-size: 150%;
   }
-  .main #button {
-    margin-top: -400px;
-    margin-left: 35px;
+  .footer__masventa__Informacion {
+    font-size: 130%;
   }
-  .main .titulo {
-    font-size: 500%;
-  }
-  .main .entrevistados {
-    font-size: 300%;
-  }
-  .main .youtube {
-    width: 750PX;
-    height: 550PX;
-  }
-  .main .bg-white mb-3 text-center {
-    width: 26rem;
-    background-color: magenta;
-  }
-  .main .ventaDeMangas {
-    width: auto;
-    background-color: yellow;
-  }
-  .main .bg-white {
-    width: 480px;
-    height: 1100px;
-    background-color: violet;
-  }
-  .main .card-img-top {
-    width: 452px;
-    height: 628px;
-    background-color: navy;
-  }
-  .main .card-text {
-    width: 452px;
-    height: auto;
-    font-size: 250%;
-    background-color: purple;
-  }
-  .main .precioDeVenta {
-    width: 452px;
-    font-size: 250%;
-  }
-  .main .precioDeVenta-padding {
-    background-color: maroon;
-    margin-top: -40px;
-  }
-  .main .btn {
+  .footer__medioDePagos {
     width: 350px;
-    height: 75px;
-    font-size: 200%;
-    margin-top: 500px;
+    height: 250px;
   }
-  .main .card-text-padding2 {
-    padding-top: 60px;
+  .footer__contactanos {
+    font-size: 110%;
   }
-  .main .card-text-padding {
-    padding-top: 30px;
+  .footer__wazap-email {
+    width: 40px;
+    height: 40px;
   }
-}
-
-.footer {
-  -ms-grid-row: 4;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  grid-area: footer;
-  background-color: aquamarine;
-  font-size: 180%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  width: 100%;
-  height: auto;
-}
-
-h4 {
-  font-size: 150%;
-}
-
-.footer__masventa__Informacion {
-  font-size: 130%;
-}
-
-.footer__medioDePagos {
-  width: 350px;
-  height: 250px;
-}
-
-.footer__contactanos {
-  font-size: 110%;
-}
-
-.footer__wazap-email {
-  width: 40px;
-  height: 40px;
-}
-
-.footer__seguinos {
-  width: 70px;
-  height: 70px;
-}
-
-.grid-container {
-  display: -ms-grid;
-  display: grid;
-  gap: 50px;
-      grid-template-areas: "header" "navbar" "main" "sidebar" "footer";
-}
-
-.grid-container {
-  background-color: black;
-  -ms-grid-rows: auto auto auto auto;
-      grid-template-rows: auto auto auto auto;
-  -ms-grid-columns: 900px auto;
-      grid-template-columns: 900px auto;
-      grid-template-areas: "header header " "navbar navbar" "main  sidebar" "footer footer";
-  /*
+  .footer__seguinos {
+    width: 70px;
+    height: 70px;
+  }
+  .grid-container {
+    display: -ms-grid;
+    display: grid;
+    gap: 50px;
+        grid-template-areas: "header" "navbar" "main" "sidebar" "footer";
+  }
+  .grid-container {
+    background-color: black;
+    -ms-grid-rows: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+    -ms-grid-columns: 900px auto;
+        grid-template-columns: 900px auto;
+        grid-template-areas: "header header " "navbar navbar" "main  sidebar" "footer footer";
+    /*
     grid-template:
         "header"auto "navbar"auto "main"auto "sidebar"auto "footer "auto / auto;
 }
 
 */
+  }
 }
 
 * {
@@ -1540,6 +1484,19 @@ a {
   margin-left: 20px;
   margin-top: 80px;
 }*/
+.contenedor__productos {
+  width: 300px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: yellow;
+}
+
 .introduccion {
   width: 250px;
   height: 30px;

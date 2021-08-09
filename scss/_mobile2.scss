@@ -30,53 +30,50 @@
 
 .header {
     grid-area: header;
-    background-color: red;
 }
 
 .navbar {
     grid-area: navbar;
-    background-color: yellow;
 }
 
 .sidebar {
     grid-area: sidebar;
-    width: 100%;
+    width: 45%;
     height: auto;
-    background-color: palevioletred;
-    .introduccion {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-    .nombreProducto {
-        display: flex;
-        flex-direction: column;
-        width: -40%;
-        }
-    .btn {
+    .btn5 {
         display: flex;
         flex-direction: row;
-        justify-content: center; 
-        margin-left: 80px;
+        justify-content: center;
     }
-    .precio {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
+    .precio{
+        margin-left: 35px;
     }
+}
+.sidebar_demon {
+    padding-left: 20px;
+    height: auto;
+    margin-left: 95px;
 }
 
 .main {
     grid-area: main;
-    background-color: teal;
+    .btn4 {
+        margin-left: -50px;
+    }
     .imgProducto{
         margin-left: 20px;
+        margin-bottom: 120px;
         }
+}
+
+.main_demon {
+    width: 25%;
+    float: left;
+
 }
 
 .footer {
     grid-area: footer;
-    background-color: orange;
     
         display: flex;
         flex-direction: row;
