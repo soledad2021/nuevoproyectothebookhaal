@@ -608,13 +608,11 @@ p {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: header;
-    background-color: aqua;
   }
   .navbar {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
     grid-area: navbar;
-    background-color: blue;
   }
   .sidebar {
     -ms-grid-row: 4;
@@ -622,7 +620,6 @@ p {
     grid-area: sidebar;
     width: 100%;
     height: auto;
-    background-color: dimgrey;
   }
   .sidebar .nombreProducto {
     margin-left: 20px;
@@ -648,7 +645,6 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: chartreuse;
   }
   .main .imgProducto {
     width: 150px;
@@ -662,7 +658,6 @@ p {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: crimson;
   }
   .footer h4 {
     font-size: 90%;
@@ -691,7 +686,6 @@ p {
         grid-template-areas: "header" "navbar" "main" "sidebar" "footer";
   }
   .grid-container {
-    background-color: fuchsia;
     -ms-grid-rows: auto auto 350px 1000px auto;
         grid-template-rows: auto auto 350px 1000px auto;
     -ms-grid-columns: 50px auto;
@@ -756,6 +750,9 @@ p {
     -ms-grid-column-span: 2;
     grid-area: navbar;
   }
+  .navbar .nav-item-submenu {
+    margin-bottom: 230PX;
+  }
   .sidebar {
     -ms-grid-row: 3;
     -ms-grid-column: 2;
@@ -816,13 +813,16 @@ p {
     width: 100%;
   }
   .footer h4 {
-    font-size: 70%;
+    font-size: 150%;
   }
   .footer .footer__masInformacion {
     font-size: 50%;
   }
+  .footer .footer__masInformacion a {
+    font-size: 180%;
+  }
   .footer .footer__contactanos {
-    font-size: 50%;
+    font-size: 90%;
   }
   .footer .footer__wazap-email {
     width: 25px;
@@ -907,14 +907,15 @@ p {
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-area: header;
-    background-color: lawngreen;
   }
   .navbar {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-area: navbar;
-    background-color: olive;
+  }
+  .navbar .nav-item-submenu {
+    margin-bottom: 230PX;
   }
   .sidebar {
     -ms-grid-row: 3;
@@ -922,7 +923,6 @@ p {
     grid-area: sidebar;
     width: 55%;
     height: auto;
-    background-color: tomato;
   }
   .sidebar .introduccion {
     display: -webkit-box;
@@ -953,7 +953,6 @@ p {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
     grid-area: main;
-    background-color: royalblue;
   }
   .main .btn4 {
     margin-left: -50px;
@@ -971,7 +970,6 @@ p {
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-area: footer;
-    background-color: aquamarine;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1075,7 +1073,6 @@ p {
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-area: header;
-    background-color: lawngreen;
   }
   .header .header__h1 {
     font-size: 200%;
@@ -1089,7 +1086,6 @@ p {
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-area: navbar;
-    background-color: olive;
     font-size: 200%;
   }
   .navbar .navbar-brand {
@@ -1099,13 +1095,15 @@ p {
     width: 250px;
     font-size: xx-large;
   }
+  .navbar .nav-item-submenu {
+    margin-bottom: 230PX;
+  }
   .sidebar {
     -ms-grid-row: 3;
     -ms-grid-column: 2;
     grid-area: sidebar;
     width: 75%;
     height: auto;
-    background-color: tomato;
     font-size: 30%;
   }
   .sidebar .introduccion {
@@ -1146,7 +1144,6 @@ p {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
     grid-area: main;
-    background-color: royalblue;
     width: 35%;
   }
   .main .btn4 {
@@ -1281,10 +1278,16 @@ p {
     height: auto;
   }
   h4 {
-    font-size: 150%;
+    font-size: 180%;
+  }
+  .footer__masInformacion {
+    font-size: 50%;
+  }
+  .footer__masInformacion a {
+    font-size: 200%;
   }
   .footer__masventa__Informacion {
-    font-size: 130%;
+    font-size: 200%;
   }
   .footer__medioDePagos {
     width: 350px;

@@ -30,10 +30,14 @@
 
 .header {
     grid-area: header;
+
 }
 
 .navbar {
     grid-area: navbar;
+    .nav-item-submenu {
+        margin-bottom: 230PX;
+    }
 }
 
 .sidebar {
@@ -82,14 +86,17 @@
 
     
     h4 {
-        font-size: 70%;
+        font-size: 150%;
     }
     .footer__masInformacion {
         font-size: 50%;
+        a {
+            font-size: 180%;
+        }
     }
     
     .footer__contactanos {
-        font-size: 50%;
+        font-size: 90%;
     }
     .footer__wazap-email {
         width: 25px;

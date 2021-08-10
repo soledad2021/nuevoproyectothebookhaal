@@ -33,7 +33,6 @@
 
     .header {
         grid-area: header;
-        background-color: lawngreen;
 
         .header__h1 {
             font-size: 200%;
@@ -47,7 +46,6 @@
 
     .navbar {
         grid-area: navbar;
-        background-color: olive;
         font-size: 200%;
 
         .navbar-brand {
@@ -58,13 +56,15 @@
             width: 250px;
             font-size: xx-large;
         }
+        .nav-item-submenu {
+            margin-bottom: 230PX;
+        }
     }
 
     .sidebar {
         grid-area: sidebar;
         width: 75%;
         height: auto;
-        background-color: tomato;
         font-size: 30%;
         .introduccion {
             display: flex;
@@ -88,7 +88,6 @@
 
     .main {
         grid-area: main;
-        background-color: royalblue;
         width: 35%;
         .btn4 {
             margin-left: -50px;
@@ -218,11 +217,17 @@
         height: auto;
     }
     h4 {
-        font-size: 150%;
+        font-size: 180%;
     }
-
+    .footer__masInformacion {
+        font-size: 50%;
+        a {
+            font-size: 200%;
+        }
+    }
+  
     .footer__masventa__Informacion {
-        font-size: 130%;
+        font-size: 200%;
     }
 
     .footer__medioDePagos {

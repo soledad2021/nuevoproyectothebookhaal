@@ -152,19 +152,16 @@
 
     .header {
         grid-area: header;
-        background-color: aqua;
     }
 
     .navbar {
         grid-area: navbar;
-        background-color: blue;
     }
 
     .sidebar {
         grid-area: sidebar;
         width: 100%;
         height: auto;
-        background-color: dimgrey;
         .nombreProducto{
             margin-left: 20px;
         }
@@ -180,7 +177,6 @@
         grid-area: main;
         justify-self: center;
         align-items: center;
-        background-color: chartreuse;
         .imgProducto {
             width: 150px;
             height: 250px;
@@ -191,7 +187,6 @@
         grid-area: footer;
         text-align: center;
         justify-content: center;
-        background-color: crimson;
         h4 {
             font-size: 90%;
         }
@@ -227,7 +222,7 @@
             "footer";
     }
     .grid-container {
-    background-color: fuchsia;
+
     grid-template-rows: auto auto 350px 1000px auto;
     grid-template-columns: 50px auto;
     grid-template-areas: 

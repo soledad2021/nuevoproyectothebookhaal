@@ -30,19 +30,20 @@
 
 .header {
     grid-area: header;
-    background-color: lawngreen;
+   
 }
 
 .navbar {
     grid-area: navbar;
-    background-color: olive;
+    .nav-item-submenu {
+        margin-bottom: 230PX;
+    }
 }
 
 .sidebar {
     grid-area: sidebar;
     width: 55%;
     height: auto;
-    background-color: tomato;
     .introduccion {
         display: flex;
         flex-direction: column;
@@ -61,7 +62,7 @@
 
 .main {
     grid-area: main;
-    background-color: royalblue;
+    
 
     .btn4 {
         margin-left: -50px;
@@ -80,7 +81,6 @@
 
 .footer {
     grid-area: footer;
-    background-color: aquamarine;
         display: flex;
         flex-direction: row;
         justify-content:: space-around;
