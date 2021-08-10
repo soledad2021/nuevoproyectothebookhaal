@@ -1086,7 +1086,7 @@ p {
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-area: navbar;
-    font-size: 100%;
+    font-size: 150%;
   }
   .navbar .navbar-brand {
     font-size: 100%;
@@ -1139,6 +1139,9 @@ p {
             flex-direction: column;
     width: 100%;
   }
+  .sidebar .reseña {
+    font-size: 18px;
+  }
   .main {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
@@ -1153,7 +1156,7 @@ p {
     margin-bottom: 100px;
     padding-left: 100px;
     width: 415px;
-    height: 555px;
+    height: 500px;
   }
   .main_demon {
     width: 25%;
@@ -1277,13 +1280,13 @@ p {
     height: auto;
   }
   h4 {
-    font-size: 180%;
+    font-size: 100%;
   }
   .footer__masInformacion {
-    font-size: 50%;
+    font-size: 80%;
   }
   .footer__masInformacion a {
-    font-size: 200%;
+    font-size: 100%;
   }
   .footer__masventa__Informacion {
     font-size: 200%;
@@ -1293,7 +1296,7 @@ p {
     height: 250px;
   }
   .footer__contactanos {
-    font-size: 110%;
+    font-size: 80%;
   }
   .footer__wazap-email {
     width: 40px;
