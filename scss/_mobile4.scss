@@ -7,7 +7,6 @@
         align-content: center;
         margin-left: 5px;
         left: 200px;
-
     }
 
     .contenedor {
@@ -22,22 +21,25 @@
         flex-direction: column;
         width: 100%;
         height: auto;
-
     }
 
     iframe {
         width: 500px;
         height: 400px;
-
+    }
+    .precioDeVenta {
+        font-size: 25px;
+        padding-bottom: 25PX;
+    }
+    .btn4 {
+        margin-top: 20px;
     }
 
     .header {
         grid-area: header;
-
         .header__h1 {
             font-size: 200%;
         }
-
         .header__logo {
             width: 800px;
             height: 400px;
@@ -53,8 +55,8 @@
         }
 
         .btn-outline-light {
-            width: 250px;
-            font-size: xx-large;
+            width: 200px;
+            font-size: large;
         }
         .nav-item-submenu {
             margin-bottom: 230PX;
@@ -64,7 +66,6 @@
     .sidebar {
         grid-area: sidebar;
         width: 75%;
-
         font-size: 30%;
         .introduccion {
             display: flex;
@@ -93,8 +94,14 @@
     .main {
         grid-area: main;
         width: 100%;
-
+        .venta__precioDelProducto {
+            font-size: 25px;
+        }
+        .precioDeVenta {
+            font-size: 25px;
+        }
         .btn4 {
+            margin-top: 20px;
             margin-left: -50px;
         }
         .imgProducto{
@@ -106,7 +113,7 @@
             }
             
     }
-   .main_demon {
+    .main_demon {
         width: 25%;
         float: left;
     }
@@ -227,7 +234,7 @@
             font-size: 100%;
         }
     }
-  
+
     .footer__masventa__Informacion {
         font-size: 200%;
     }

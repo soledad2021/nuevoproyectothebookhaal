@@ -153,69 +153,6 @@ body header nav {
   margin: 0 auto;
 }
 
-.sumar-camion {
-  background-color: #55acee;
-}
-
-.sumar-paquete {
-  background-color: #3a5795;
-}
-
-.sumar-moto {
-  background-color: #c25E30;
-}
-
-.banner__footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  height: 150px;
-  margin-top: 50px;
-}
-
-.banner__footer img {
-  width: 50px;
-  height: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  margin-left: 190px;
-}
-
-.banner__titulo--centrado {
-  padding-left: 15px;
-  font-family: 'Spartan', sans-serif;
-  font-size: 14px;
-  width: 270px;
-  padding-top: 3px;
-}
-
-.banner__titulo {
-  font-family: 'Spartan', sans-serif;
-  font-size: 14px;
-  margin-left: 150px;
-  width: 260px;
-  padding-top: 3px;
-}
-
-.banner__titulo--moto {
-  padding-left: 10px;
-}
-
 /*venta de productos (index)*/
 .venta__novedades {
   display: -webkit-box;
@@ -813,7 +750,7 @@ p {
     width: 100%;
   }
   .footer h4 {
-    font-size: 150%;
+    font-size: 100%;
   }
   .footer .footer__masInformacion {
     font-size: 50%;
@@ -1068,6 +1005,13 @@ p {
     width: 500px;
     height: 400px;
   }
+  .precioDeVenta {
+    font-size: 25px;
+    padding-bottom: 25PX;
+  }
+  .btn4 {
+    margin-top: 20px;
+  }
   .header {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
@@ -1092,8 +1036,8 @@ p {
     font-size: 100%;
   }
   .navbar .btn-outline-light {
-    width: 250px;
-    font-size: xx-large;
+    width: 200px;
+    font-size: large;
   }
   .navbar .nav-item-submenu {
     margin-bottom: 230PX;
@@ -1148,7 +1092,14 @@ p {
     grid-area: main;
     width: 100%;
   }
+  .main .venta__precioDelProducto {
+    font-size: 25px;
+  }
+  .main .precioDeVenta {
+    font-size: 25px;
+  }
   .main .btn4 {
+    margin-top: 20px;
     margin-left: -50px;
   }
   .main .imgProducto {
@@ -1349,13 +1300,10 @@ a {
   text-decoration: none;
 }
 
+/*
 .menu1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   background-color: black;
   font-size: 16px;
   text-transform: capitalize;
@@ -1363,35 +1311,29 @@ a {
   padding: 0;
   opacity: 0.9;
 }
-
 .menu1 li {
   margin: 5px;
   padding: 4px 0px;
   display: block;
   background-color: black;
 }
-
 .menu1 li a:hover {
   background-color: black;
   color: white;
   width: 50px;
 }
-
 .menu1 > li {
   float: left;
 }
-
 .menu1 li ul {
   display: none;
   position: absolute;
   min-width: 100px;
   background-color: black;
 }
-
 .menu1 li:hover > ul {
   display: block;
-}
-
+}*/
 /*banner publicidad
 .banner {
     
@@ -1572,12 +1514,6 @@ a {
   height: 315px;
 }
 
-.contenedorDeImagen {
-  width: 500px;
-  height: 400px;
-  background-color: fuchsia;
-}
-
 .precio {
   font-size: 30px;
   font-weight: bold;
@@ -1622,28 +1558,22 @@ a {
   grid-area: buttton;
 }
 
+/*
 .bread {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   text-align: center;
   background: white;
   color: black;
   font-size: 15px;
 }
-
 section div ol li a {
   color: black;
 }
-
 main div ol li a {
   color: black;
-}
-
+}*/
 /*aside*/
 aside {
   background-color: white;
@@ -1856,26 +1786,18 @@ aside ul li a {
   font-size: 20px;
 }
 
-/*buscador*/
+/*buscador
 .buscar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 30%;
   left: 85%;
-  -webkit-transform: translate(-30%, -10%);
-          transform: translate(-30%, -10%);
+  transform: translate(-30%, -10%);
   padding: 12px;
   height: 10px;
 }
-
 .buscar_texto {
   border: none;
   background: none;
@@ -1884,19 +1806,16 @@ aside ul li a {
   font-size: 12px;
   float: left;
   line-height: 50px;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
   background: white;
 }
-
 .boton {
   width: 30px;
   height: 30px;
   text-decoration: none;
   color: beige;
   font-size: 30px;
-}
-
+}*/
 /*--------responsive---------*/
 @media screen and (min-width: 400px) {
   .buscar:hover > .buscar_texto {
@@ -1955,11 +1874,5 @@ aside ul li a {
       grid-template-areas: ". . ." ". img ." ". . .";
   width: 81.7%;
   height: 100%;
-}
-
-.error {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  grid-area: img;
 }
 /*# sourceMappingURL=estilos.css.map */

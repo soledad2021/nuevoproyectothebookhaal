@@ -1,6 +1,5 @@
 @import "footer";
 @import "header";
-@import "banner";
 @import "index";
 @import "formulario";
 @import "mobile";
@@ -27,7 +26,7 @@ a {
   color: white;
   text-decoration: none;
 }
-
+/*
 .menu1 {
   display: flex;
   justify-content: center;
@@ -60,7 +59,7 @@ a {
 }
 .menu1 li:hover > ul {
   display: block;
-}
+}*/
 /*banner publicidad
 .banner {
     
@@ -190,11 +189,7 @@ a {
   height: 315px;
 
 }
-.contenedorDeImagen {
-  width: 500px;
-  height: 400px;
-  background-color: fuchsia;
-}
+
 .precio {
   font-size: 30px;
   font-weight: bold;
@@ -228,6 +223,7 @@ a {
   grid-area: buttton;
   
 }
+/*
 .bread {
   display: flex;
   width: 100%;
@@ -242,7 +238,7 @@ section div ol li a {
 }
 main div ol li a {
   color: black;
-}
+}*/
 /*aside*/
 aside {
   background-color: white;
@@ -396,7 +392,7 @@ aside ul li a {
   border: 0, 3rem solid black;
   font-size: 20px;
 }
-/*buscador*/
+/*buscador
 .buscar {
   display: flex;
   justify-content: center;
@@ -425,7 +421,7 @@ aside ul li a {
   text-decoration: none;
   color: beige;
   font-size: 30px;
-}
+}*/
 /*--------responsive---------*/
 @media screen and (min-width: 400px) {
   .buscar:hover > .buscar_texto {
@@ -479,4 +475,3 @@ aside ul li a {
   height: 100%; 
 
 }
-.error { grid-area: img; }
