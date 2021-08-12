@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./imagenes/logo2.png">
     <title>Comics - The book Hall</title>
 </head>
 
@@ -114,7 +115,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav flex-column">
                         <li class="nav-item dropdown nav-item-submenu">
-                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            <a class="nav-link active dropdown-toggle menu__cambio" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Editoriales
                             </a>
@@ -126,7 +127,7 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown nav-item-submenu">
-                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            <a class="nav-link active dropdown-toggle menu__cambio" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 CATEGORIA
                             </a>
@@ -138,7 +139,7 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown nav-item-submenu">
-                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            <a class="nav-link active dropdown-toggle menu__cambio" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 PRECIO
                             </a>
@@ -153,6 +154,19 @@
         </nav>
     </aside>
 <main>
+    <div class="ordenarPor">
+        <div class="btn-group">
+            <button type="button" class="btn btn-white dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Ordenar por:
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+                <li><button class="dropdown-item" type="button">Mayor Precio</button></li>
+                <li><button class="dropdown-item" type="button">Menor Precio</button></li>
+                <li><button class="dropdown-item" type="button">Mas Nuevo</button></li>
+            </ul>
+        </div>
+    </div>
     <section class="main">
         <article class="global">
             <div class="ventaDeMangas">
@@ -332,7 +346,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
-    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+</script>
 </body>
 
 </html>

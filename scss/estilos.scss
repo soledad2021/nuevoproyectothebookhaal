@@ -6,6 +6,7 @@
 @import "mobile2";
 @import "mobile3";
 @import "mobile4";
+@import "mobilebis";
 * {
   margin:  0;
   padding: 0;
@@ -61,41 +62,49 @@ a {
   display: block;
 }*/
 /*banner publicidad
+.banner2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
 .banner {
-    
-    margin:auto;
-    width: 1210px;
-    height: 505px;
-    background-size: 100% 100%;
-    animation-name: banner ;
+  width: 100%;
+    animation-name: banner;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
-
+    animation-direction: normal;
 }
 @keyframes banner {
     0%, 30% {
-    background-image: url(https://scontent.fepa8-2.fna.fbcdn.net/v/t1.6435-9/192481158_1630532877141817_5824538626973757535_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=973b4a&_nc_ohc=Ga6BLULg7SEAX8ovfPn&_nc_ht=scontent.fepa8-2.fna&oh=54848f9deea99a60e3c727f55f11c92a&oe=60F1900B);
+    
+    width: 100px;
+    height: 50px;
     opacity: 1;
     }
     31%,34%{
         opacity: 0.1;
     } 
     35%, 65% {
+      width: 110px;
+    height: 50px;
         opacity: 1;
-        background-image: url(https://scontent.fepa8-2.fna.fbcdn.net/v/t1.6435-9/185427163_1615681598626945_3562223124813336750_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=973b4a&_nc_ohc=lbh9kzg7gyAAX-P1TjB&_nc_ht=scontent.fepa8-2.fna&oh=dfa3b92944dc3c8cd585558b59bdb60a&oe=60F1E23F);
+        
     }
     66%, 69% {
         opacity: 0.1;
     }
     70%, 100% {
+      width: 100px;
+    height: 50px;
         opacity: 1;
-        background-image: url(https://scontent.fepa8-2.fna.fbcdn.net/v/t1.6435-9/119028741_1433017233560050_238948733704589912_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=973b4a&_nc_ohc=nfpYfq5nM8gAX-1kzX3&_nc_ht=scontent.fepa8-2.fna&oh=167b45e15a206caee474e77c9a855e28&oe=60F17144);
+        
     }
 
-}
+}*/
 
-*/
+
 /*venta de productos (mangashtml-comicshtml-libroshtml)*/
 
 .ventaDeMangas {
@@ -475,3 +484,4 @@ aside ul li a {
   height: 100%; 
 
 }
+

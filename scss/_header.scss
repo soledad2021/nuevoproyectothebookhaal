@@ -37,7 +37,32 @@
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-    width: 400px;
-    height: 200px;
+    width: 300px;
+    height: 150px;
     margin: 0 auto;
+}
+.ordenarPor {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: baseline;
+	align-content: stretch;
+    margin-right: 50px;
+}
+.navbar {
+    grid-area: navbar;
+    font-size: 13px;
+}
+.navbar-brand {
+    font-size: 13px;
+}
+.btn-outline-light {
+    font-size: 13px;
+}
+.form-control{
+    font-size: 12px;
+}
+.menu__cambio {
+    font-size: 16px;
 }

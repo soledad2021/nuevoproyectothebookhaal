@@ -1,4 +1,4 @@
-@media only screen and (min-width: 320px) and (max-width: 488px) {
+@media only screen and (min-width: 368px) and (max-width: 488px) {
     body {
         background-color: gray;
         display: flex;
@@ -171,6 +171,7 @@
         grid-area: sidebar;
         width: 100%;
         height: auto;
+        
         .nombreProducto{
             margin-left: 20px;
         }
@@ -189,6 +190,13 @@
         .imgProducto {
             width: 150px;
             height: 250px;
+        }
+        .btn4 {
+            margin-right: 40px;
+            margin-left: 5px;
+            font-size: 15px;
+            padding: 6px 6px;
+
         }
     }
 
@@ -242,4 +250,3 @@
 
     }
 }
-

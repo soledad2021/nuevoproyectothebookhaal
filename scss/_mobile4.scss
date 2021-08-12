@@ -41,14 +41,14 @@
             font-size: 200%;
         }
         .header__logo {
-            width: 800px;
-            height: 400px;
+            width: 600px;
+            height: 300px;
         }
     }
 
     .navbar {
         grid-area: navbar;
-        font-size: 150%;
+        font-size: 100%;
 
         .navbar-brand {
             font-size: 100%;
@@ -116,6 +116,15 @@
     .main_demon {
         width: 25%;
         float: left;
+    }
+    .ordenarPor {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: baseline;
+        align-content: stretch;
+        margin-right: 100px;
     }
 
 /*.imgProducto {
@@ -240,8 +249,8 @@
     }
 
     .footer__medioDePagos {
-        width: 350px;
-        height: 250px;
+        width: 200px;
+        height: 150px;
     }
 
     .footer__contactanos {
