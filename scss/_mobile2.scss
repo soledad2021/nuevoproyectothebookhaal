@@ -40,11 +40,13 @@
 .sidebar {
     grid-area: sidebar;
     width: 45%;
-    height: auto;
     .btn5 {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        margin-top: 6px;
+        margin-left: 20px;   
+        margin-bottom: 20px;
     }
     .precio{
         margin-left: 35px;

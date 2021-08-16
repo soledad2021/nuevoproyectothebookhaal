@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1025px) and (max-width: 1820px) {
+@media only screen and (min-width: 1025px) and (max-width: 1755px) {
     .contenedor__btn-formulario {
         display: flex;
         flex-direction: row;
@@ -40,19 +40,31 @@
 .sidebar {
     grid-area: sidebar;
     width: 55%;
-    height: auto;
+    margin-bottom: -150px;
     .introduccion {
         display: flex;
         flex-direction: column;
         width: 100%;
+        margin-top: -90px;
+
     }
     .btn5 {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        margin-top: 6px;
+        margin-top: -85px;
+        
     }
     .precio{
+        display: flex;
+        flex-direction: row;
+        width: 25%;
         margin-left: 35px;
+        margin-top: -90px;
+    }
+    .reseña {
+        margin-top: -150px;
     }
 }
 
@@ -148,3 +160,4 @@ grid-template-areas:
 
 }
 }
+

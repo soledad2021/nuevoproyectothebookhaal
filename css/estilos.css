@@ -35,6 +35,10 @@
   margin: 0;
 }
 
+.masInfo {
+  padding-left: 30px;
+}
+
 /*imagenes de wazap y email*/
 .footer__wazap-email {
   width: 20px;
@@ -635,6 +639,7 @@ p {
         -ms-flex-pack: center;
             justify-content: center;
     margin-left: 80px;
+    margin-bottom: 30px;
   }
   .main {
     -ms-grid-row: 3;
@@ -757,7 +762,6 @@ p {
     -ms-grid-column: 2;
     grid-area: sidebar;
     width: 45%;
-    height: auto;
   }
   .sidebar .btn5 {
     display: -webkit-box;
@@ -770,6 +774,9 @@ p {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-top: 6px;
+    margin-left: 20px;
+    margin-bottom: 20px;
   }
   .sidebar .precio {
     margin-left: 35px;
@@ -880,7 +887,7 @@ p {
   }
 }
 
-@media only screen and (min-width: 1025px) and (max-width: 1820px) {
+@media only screen and (min-width: 1025px) and (max-width: 1755px) {
   .contenedor__btn-formulario {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -944,7 +951,7 @@ p {
     -ms-grid-column: 2;
     grid-area: sidebar;
     width: 55%;
-    height: auto;
+    margin-bottom: -150px;
   }
   .sidebar .introduccion {
     display: -webkit-box;
@@ -955,6 +962,7 @@ p {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
+    margin-top: -90px;
   }
   .sidebar .btn5 {
     display: -webkit-box;
@@ -967,9 +975,23 @@ p {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-top: 6px;
+    margin-top: -85px;
   }
   .sidebar .precio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 25%;
     margin-left: 35px;
+    margin-top: -90px;
+  }
+  .sidebar .reseña {
+    margin-top: -150px;
   }
   .main {
     -ms-grid-row: 3;
@@ -1066,7 +1088,7 @@ p {
   }
 }
 
-@media only screen and (min-width: 1821px) {
+@media only screen and (min-width: 1756px) {
   .contenedor__btn-formulario {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1151,7 +1173,15 @@ p {
     -ms-grid-row: 3;
     -ms-grid-column: 2;
     grid-area: sidebar;
-    width: 75%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 60%;
+    height: auto;
     font-size: 30%;
   }
   .sidebar .introduccion {
@@ -1168,25 +1198,25 @@ p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: auto;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-left: 550px;
   }
   .sidebar .precio {
-    margin-left: 35px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100%;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100px;
+    margin-left: 25px;
   }
   .sidebar .reseña {
     font-size: 18px;
@@ -1351,6 +1381,7 @@ p {
         justify-content: space-around;
     width: 100%;
     height: auto;
+    margin-top: 50px;
   }
   h4 {
     font-size: 70%;
