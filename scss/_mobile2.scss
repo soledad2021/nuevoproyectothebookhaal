@@ -9,146 +9,163 @@
         left: 200px;
 
     }
+
     .contenedor {
         display: flex;
         flex-direction: column;
         width: 100%;
         height: auto;
     }
+
     .mapa {
         display: flex;
         flex-direction: column;
         width: 100%;
         height: auto;
     }
+
     iframe {
         width: 500px;
         height: 400px;
     }
 
-.header {
-    grid-area: header;
-}
-
-.navbar {
-    grid-area: navbar;
-    .nav-item-submenu {
-        margin-bottom: 230PX;
+    .header {
+        grid-area: header;
     }
-}
 
-.sidebar {
-    grid-area: sidebar;
-    width: 45%;
-    .btn5 {
+    .navbar {
+        grid-area: navbar;
+
+        .nav-item-submenu {
+            margin-bottom: 230PX;
+        }
+    }
+
+    .sidebar {
+        grid-area: sidebar;
+        width: 45%;
+
+        .btn5 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 6px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        .precio {
+            margin-left: 35px;
+        }
+    }
+
+    .sidebar_demon {
+        padding-left: 20px;
+        height: auto;
+        margin-left: 95px;
+    }
+
+    .main {
+        grid-area: main;
+
+        .btn4 {
+            margin-left: -50px;
+        }
+
+        .imgProducto {
+            margin-left: 20px;
+            margin-bottom: 120px;
+        }
+    }
+
+    .main_demon {
+        width: 25%;
+        float: left;
+    }
+
+    .ordenarPor {
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        margin-top: 6px;
-        margin-left: 20px;   
-        margin-bottom: 20px;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: baseline;
+        align-content: stretch;
+        margin-right: 20px;
     }
-    .precio{
-        margin-left: 35px;
+
+    .dropdown-item {
+        font-size: 14px;
     }
-}
-.sidebar_demon {
-    padding-left: 20px;
-    height: auto;
-    margin-left: 95px;
-}
 
-.main {
-    grid-area: main;
-    .btn4 {
-        margin-left: -50px;
-    }
-    .imgProducto{
-        margin-left: 20px;
-        margin-bottom: 120px;
-        }
-}
-
-.main_demon {
-    width: 25%;
-    float: left;
-}
-.ordenarPor {
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-end;
-	align-items: baseline;
-	align-content: stretch;
-    margin-right: 20px;
-}
-.dropdown-item {
-    font-size: 14px;
-}
-
-.footer {
+    .footer {
         grid-area: footer;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         width: 100%;
-    h4 {
-        font-size: 100%;
-    }
-    .footer__masInformacion {
-        font-size: 50%;
-        a {
-            font-size: 180%;
+
+        h4 {
+            font-size: 100%;
         }
+
+        .footer__masInformacion {
+            font-size: 50%;
+
+            a {
+                font-size: 180%;
+            }
+        }
+
+        .footer__contactanos {
+            font-size: 90%;
+        }
+
+        .footer__wazap-email {
+            width: 25px;
+            height: 25px;
+        }
+
+        .footer__seguinos {
+            width: 40px;
+            height: 40px;
+        }
+
+        .footer__medioDePagos {
+            width: 175px;
+            height: 115px;
+        }
+
     }
-    
-    .footer__contactanos {
-        font-size: 90%;
+
+
+
+    .grid-container {
+        display: grid;
+        gap: 10px;
+        grid-template-areas:
+            "header"
+            "navbar"
+            "main"
+            "sidebar"
+            "footer";
     }
-    .footer__wazap-email {
-        width: 25px;
-        height: 25px;
-    }
-    .footer__seguinos {
-        width: 40px;
-        height: 40px;
-}
-.footer__medioDePagos {
-    width: 175px;
-    height: 115px;
-}
-
-}
 
 
-
-.grid-container {
-    display: grid;
-    gap: 10px;
-    grid-template-areas:
-        "header"
-        "navbar"
-        "main"
-        "sidebar"
-        "footer";
-}
-
-
-.grid-container {
-    background-color: black;
-    grid-template-rows: auto auto auto auto;
-grid-template-columns: 150px auto;
-grid-template-areas: 
-"header header "
-"navbar navbar"
-"main  sidebar"
-"footer footer";
-/*
+    .grid-container {
+        background-color: black;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: 150px auto;
+        grid-template-areas:
+            "header header "
+            "navbar navbar"
+            "main  sidebar"
+            "footer footer";
+        /*
     grid-template:
         "header"auto "navbar"auto "main"auto "sidebar"auto "footer "auto / auto;
 }
 
 */
 
-}
+    }
 }

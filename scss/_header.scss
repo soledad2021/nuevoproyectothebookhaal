@@ -1,4 +1,3 @@
-
 /*cabeza*/
 .header__h1 {
     display: flex;
@@ -19,50 +18,58 @@
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
 }
 
-.main{
+.main {
     width: 100%;
     height: auto;
     margin: 0 auto;
 
 }
-.header__logo{
+
+.header__logo {
     display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     width: 300px;
     height: 150px;
     margin: 0 auto;
 }
+
 .ordenarPor {
     display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-end;
-	align-items: baseline;
-	align-content: stretch;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: baseline;
+    align-content: stretch;
     margin-right: 50px;
 }
+
 .navbar {
     grid-area: navbar;
     font-size: 13px;
 }
+
 .navbar-brand {
     font-size: 13px;
 }
+
 .btn-outline-light {
     font-size: 13px;
 }
-.form-control{
+
+.form-control {
     font-size: 12px;
 }
+
 .menu__cambio {
     font-size: 16px;
 }

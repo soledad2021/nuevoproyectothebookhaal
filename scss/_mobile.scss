@@ -84,6 +84,7 @@
         margin-left: 75px;
         margin-right: 75px;
     }
+
     .ordenarPor {
         display: flex;
         flex-direction: row;
@@ -171,13 +172,15 @@
         grid-area: sidebar;
         width: 100%;
         height: auto;
-        .nombreProducto{
+
+        .nombreProducto {
             margin-left: 20px;
         }
+
         .btn {
             display: flex;
             flex-direction: row;
-            justify-content: center; 
+            justify-content: center;
             margin-left: 80px;
             margin-bottom: 30px;
         }
@@ -187,6 +190,7 @@
         grid-area: main;
         justify-self: center;
         align-items: center;
+
         .imgProducto {
             width: 150px;
             height: 250px;
@@ -197,28 +201,36 @@
         grid-area: footer;
         text-align: center;
         justify-content: center;
+        display: flex;
+            flex-direction: column;
+
         h4 {
             font-size: 90%;
         }
+
         .footer__masInformacion {
             font-size: 70%;
+
             a {
-            font-size: 120%;
+                font-size: 120%;
+            }
         }
-        }
-        
+
         .footer__contactanos {
+            width: 100%;
             font-size: 80%;
         }
+
         .footer__wazap-email {
             width: 20px;
             height: 20px;
         }
+
         .footer__seguinos {
+            width: 100%;
             width: 40px;
             height: 40px;
-    }
-    
+        }
     }
 
     .grid-container {
@@ -231,16 +243,16 @@
             "sidebar"
             "footer";
     }
+
     .grid-container {
 
-    grid-template-rows: auto auto 350px 1000px auto;
-    grid-template-columns: 50px auto;
-    grid-template-areas: 
-    "header"
-    "navbar"
-    "main"
-    "footer";
+        grid-template-rows: auto auto 350px 1000px auto;
+        grid-template-columns: 50px auto;
+        grid-template-areas:
+            "header"
+            "navbar"
+            "main"
+            "footer";
 
     }
 }
-

@@ -1,21 +1,22 @@
-
 .contenedor__conta {
     color: black;
-    
+
 }
+
 .contenedor__form-header {
     font-weight: normal;
 }
 
 .contenedor__form-label {
     display: block;
-    color:  black;
+    color: black;
     font-size: 16px;
     position: relative;
     font-weight: bold;
 }
+
 .contenedor__textarea {
-    background: rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.1);
     border: none;
     outline: none;
     border-bottom: 2px solid rgb(85, 85, 85);
@@ -25,8 +26,9 @@
     border-radius: 2px;
     font-size: 16px;
 }
+
 .contenedor__form-input {
-    background: rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.1);
     border: none;
     outline: none;
     border-bottom: 2px solid rgb(85, 85, 85);
@@ -36,6 +38,7 @@
     border-radius: 2px;
     font-size: 12px;
 }
+
 .contenedor__btn-formulario {
     width: 200px;
     height: 40px;
