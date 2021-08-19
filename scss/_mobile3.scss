@@ -38,6 +38,8 @@
 
         .nav-item-submenu {
             margin-bottom: 230PX;
+            width: 150px;
+
         }
     }
 
@@ -45,6 +47,7 @@
         grid-area: sidebar;
         width: 55%;
         margin-bottom: -150px;
+        margin-left: 50px;
 
         .introduccion {
             display: flex;
@@ -78,8 +81,9 @@
 
     .main {
         grid-area: main;
-
-
+        .ventaDeMangas {
+            margin-left: 200px;
+        }
         .btn4 {
             margin-left: -50px;
         }

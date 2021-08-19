@@ -67,7 +67,9 @@
 
     .main {
         grid-area: main;
-
+        .ventaDeMangas{
+            margin-left: 180px;
+        }
         .btn4 {
             margin-left: -50px;
         }
@@ -94,7 +96,7 @@
     }
 
     .dropdown-item {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .footer {

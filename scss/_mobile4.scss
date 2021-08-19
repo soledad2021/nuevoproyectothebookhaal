@@ -106,7 +106,9 @@
     .main {
         grid-area: main;
         width: 100%;
-
+        .ventaDeMangas{
+            margin-left: 180px;
+        }
         .venta__precioDelProducto {
             font-size: 25px;
         }

@@ -61,6 +61,7 @@
   height: 20px;
   text-align: center;
   background-color: #f0eded;
+  margin-top: 30px;
 }
 
 .footer__wazap-principal {
@@ -181,6 +182,14 @@ body header nav {
 .navbar {
   grid-area: navbar;
   font-size: 13px;
+}
+
+.navbar .dropdown-item {
+  font-size: 13px;
+  margin-left: 0.5px;
+  margin-right: 0.5px;
+  padding-left: 5px;
+  padding-right: 2px;
 }
 
 .navbar-brand {
@@ -433,6 +442,13 @@ p {
     width: 100%;
     height: 100%;
   }
+  .card-body {
+    margin-left: 5px;
+    margin-right: 35px;
+  }
+  .btn4 {
+    margin-right: 30px;
+  }
   .venta__informacion {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -512,7 +528,8 @@ p {
             align-items: baseline;
     -ms-flex-line-pack: stretch;
         align-content: stretch;
-    margin-right: 15px;
+    margin-right: 33px;
+    margin-bottom: 20px;
   }
   .iconos {
     display: -webkit-box;
@@ -675,8 +692,11 @@ p {
   }
   .footer .footer__masInformacion {
     font-size: 70%;
+    width: 100%;
+    padding-left: 0px;
+    text-align: center;
   }
-  .footer .footer__masInformacion a {
+  .footer a {
     font-size: 120%;
   }
   .footer .footer__contactanos {
@@ -689,8 +709,13 @@ p {
   }
   .footer .footer__seguinos {
     width: 100%;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
+  }
+  h4.masInfo {
+    width: 100%;
+    padding-left: 0px;
+    text-align: center;
   }
   .grid-container {
     display: -ms-grid;
@@ -800,6 +825,9 @@ p {
     -ms-grid-column: 1;
     grid-area: main;
   }
+  .main .ventaDeMangas {
+    margin-left: 180px;
+  }
   .main .btn4 {
     margin-left: -50px;
   }
@@ -832,7 +860,7 @@ p {
     margin-right: 20px;
   }
   .dropdown-item {
-    font-size: 14px;
+    font-size: 13px;
   }
   .footer {
     -ms-grid-row: 4;
@@ -954,6 +982,7 @@ p {
   }
   .navbar .nav-item-submenu {
     margin-bottom: 230PX;
+    width: 150px;
   }
   .sidebar {
     -ms-grid-row: 3;
@@ -961,6 +990,7 @@ p {
     grid-area: sidebar;
     width: 55%;
     margin-bottom: -150px;
+    margin-left: 50px;
   }
   .sidebar .introduccion {
     display: -webkit-box;
@@ -1006,6 +1036,9 @@ p {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
     grid-area: main;
+  }
+  .main .ventaDeMangas {
+    margin-left: 200px;
   }
   .main .btn4 {
     margin-left: -50px;
@@ -1235,6 +1268,9 @@ p {
     -ms-grid-column: 1;
     grid-area: main;
     width: 100%;
+  }
+  .main .ventaDeMangas {
+    margin-left: 180px;
   }
   .main .venta__precioDelProducto {
     font-size: 25px;
@@ -1803,82 +1839,6 @@ a {
   text-decoration: none;
 }
 
-/*
-.menu1 {
-  display: flex;
-  justify-content: center;
-  background-color: black;
-  font-size: 16px;
-  text-transform: capitalize;
-  text-align: center;
-  padding: 0;
-  opacity: 0.9;
-}
-.menu1 li {
-  margin: 5px;
-  padding: 4px 0px;
-  display: block;
-  background-color: black;
-}
-.menu1 li a:hover {
-  background-color: black;
-  color: white;
-  width: 50px;
-}
-.menu1 > li {
-  float: left;
-}
-.menu1 li ul {
-  display: none;
-  position: absolute;
-  min-width: 100px;
-  background-color: black;
-}
-.menu1 li:hover > ul {
-  display: block;
-}*/
-/*banner publicidad
-.banner2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-}
-
-.banner {
-  width: 100%;
-    animation-name: banner;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-}
-@keyframes banner {
-    0%, 30% {
-    
-    width: 100px;
-    height: 50px;
-    opacity: 1;
-    }
-    31%,34%{
-        opacity: 0.1;
-    } 
-    35%, 65% {
-      width: 110px;
-    height: 50px;
-        opacity: 1;
-        
-    }
-    66%, 69% {
-        opacity: 0.1;
-    }
-    70%, 100% {
-      width: 100px;
-    height: 50px;
-        opacity: 1;
-        
-    }
-
-}*/
 /*venta de productos (mangashtml-comicshtml-libroshtml)*/
 .ventaDeMangas {
   display: -webkit-box;
@@ -1939,20 +1899,14 @@ a {
   align-items: flex-start;
   margin-left: 20px;
   margin-top: 80px;
-}*/
+}
 .contenedor__productos {
   width: 300px;
   height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   background-color: yellow;
-}
-
+}*/
 .introduccion {
   width: 250px;
   height: 30px;
@@ -1988,26 +1942,19 @@ a {
   padding-top: 15px;
 }
 
+/*
 .botonCarrito {
   width: 300px;
   height: 50px;
   font-size: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   margin-left: 30px;
+  
 }
-
+*/
 .imgProducto {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2045,6 +1992,7 @@ a {
   color: black;
 }
 
+/*
 .d-grid {
   display: -ms-grid;
   display: grid;
@@ -2054,19 +2002,19 @@ a {
   grid-template-rows: 0fr 1.8fr 1fr;
   margin-left: 50px;
   gap: 0px 0px;
-      grid-template-areas: ". . ." ". buttton ." ". . .";
+  grid-template-areas:
+    ". . ."
+    ". buttton ."
+    ". . .";
 }
 
 .btn {
-  -ms-grid-columns: 1;
-      grid-template-columns: 1;
-  -ms-grid-rows: 2;
-      grid-template-rows: 2;
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
+  grid-template-columns: 1;
+  grid-template-rows: 2;
   grid-area: buttton;
-}
 
+}
+*/
 /*
 .bread {
   display: flex;
@@ -2085,7 +2033,6 @@ main div ol li a {
 }*/
 /*aside*/
 aside {
-  background-color: white;
   color: gray;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2099,13 +2046,13 @@ aside {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  width: 80px;
+  width: 250px;
   height: 660px;
   float: left;
-  font-size: 20px;
+  font-size: 13px;
 }
 
-/*submenu de editoriales-genero-precio*/
+/*submenu de editoriales-genero-precio - del menu princiupal y ordenar por:*/
 aside ul li a {
   color: gray;
 }
@@ -2124,68 +2071,46 @@ aside ul li a {
   height: auto;
 }
 
-/*
-.submenu2 li {
-  width: 120px;
-  padding: 2px 2px;
-  display: block;
-}
-.submenu2 li a:hover {
-  background-color: #bdbdbd;
-}
-.submenu2 > li {
-  float: left;
-}
-.submenu2 li ul {
-  display: none;
-  position: absolute;
-  min-width: 100px;
-}
-.submenu2 li:hover > ul {
-  display: block;
+.navbar-brand:hover {
+  font-weight: 900;
 }
 
-.submenu3 li {
-  width: 120px;
-  padding: 2px 2px;
-  display: block;
-}
-.submenu3 li a:hover {
-  background-color: #bdbdbd;
-}
-.submenu3 > li {
-  padding-top: 250px;
-}
-.submenu3 li ul {
-  display: none;
-  position: absolute;
-  min-width: 100px;
-}
-.submenu3 li:hover > ul {
-  display: block;
+.navbar {
+  grid-area: navbar;
 }
 
-.submenu4 li {
-  width: 200px;
-  padding: 2px 2px;
-  display: block;
+.nav-link:hover {
+  font-weight: 900;
 }
-.submenu4 li a:hover {
-  background-color: #bdbdbd;
+
+.dropdown-menu a:hover {
+  font-weight: 900;
+  color: #686666;
 }
-.submenu4 > li {
-  padding-top: 250px;
-  float: left;
+
+.dropdown-menu a {
+  font-size: 14px;
 }
-.submenu4 li ul {
-  display: none;
-  position: absolute;
-  min-width: 100px;
+
+.dropdown-toggle {
+  font-size: 14px;
+  border: 0px;
 }
-.submenu4 li:hover > ul {
-  display: block;
+
+.dropdown-toggle.show:hover {
+  font-weight: bolder;
+  color: black;
 }
-*/
+
+.dropdown-item {
+  font-size: 13px;
+}
+
+.dropdown-item:hover {
+  font-weight: 900;
+  background-color: white;
+}
+
 /*como comprar / devoluciones/ quienes somos/preguntas frecuentes */
 .instrucionesDeCompra {
   margin: 50px;
@@ -2299,44 +2224,13 @@ iframe {
   font-size: 20px;
 }
 
-/*buscador
-.buscar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 30%;
-  left: 85%;
-  transform: translate(-30%, -10%);
-  padding: 12px;
-  height: 10px;
-}
-.buscar_texto {
-  border: none;
-  background: none;
-  outline: none;
-  color: black;
-  font-size: 12px;
-  float: left;
-  line-height: 50px;
-  transition: 0.5s;
-  background: white;
-}
-.boton {
-  width: 30px;
-  height: 30px;
-  text-decoration: none;
-  color: beige;
-  font-size: 30px;
-}*/
-/*--------responsive---------*/
+/*--------responsive---------
 @media screen and (min-width: 400px) {
-  .buscar:hover > .buscar_texto {
+  .buscar:hover>.buscar_texto {
     width: 190px;
     height: 20px;
   }
-}
-
+}*/
 /* mangas, comics, libros (pagina principal*/
 .card-img-top {
   width: 176px;
