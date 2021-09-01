@@ -2095,7 +2095,7 @@ aside ul li a {
 .dropdown-toggle {
   font-size: 13px;
   border: 0px;
-  padding: 0px;
+  padding: 8px 0px;
 }
 
 .dropdown-toggle.show:hover {
