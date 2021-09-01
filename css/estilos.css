@@ -645,7 +645,6 @@ p {
     margin-left: 20px;
   }
   .sidebar .btn {
-    background-color: chartreuse;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2090,13 +2089,13 @@ aside ul li a {
 }
 
 .dropdown-menu a {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .dropdown-toggle {
-  font-size: 14px;
+  font-size: 13px;
   border: 0px;
-  margin-right: 5px;
+  padding: 0px;
 }
 
 .dropdown-toggle.show:hover {
